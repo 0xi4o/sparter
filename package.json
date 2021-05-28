@@ -1,20 +1,27 @@
 {
-  "name": "sparter",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.2"
-  }
+	"name": "sparter",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"@babel/core": "^7.14.3",
+		"@babel/preset-react": "^7.13.13",
+		"antd": "^4.16.0",
+		"next": "10.2.3",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.2.6",
+		"eslint": "^7.27.0",
+		"postcss": "^8.3.0",
+		"prettier": "^2.3.0",
+		"tailwindcss": "^2.1.2",
+		"husky": "^6.0.0"
+	}
 }
