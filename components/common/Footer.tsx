@@ -87,7 +87,7 @@ const Footer = () => {
 					</Stack>
 					<Stack align={'flex-start'}>
 						<ListHeader>Resources</ListHeader>
-						<Link href='/docs'>Docs</Link>
+						<Link href='/docs'>Docs (Coming Soon)</Link>
 					</Stack>
 					<Stack align={'flex-start'}>
 						<ListHeader>Community</ListHeader>
