@@ -15,7 +15,7 @@ const SubscriptionForm = (props) => {
 				direction={{ base: 'column', md: 'row' }}
 				as={'form'}
 				spacing={'12px'}
-				action='https://www.getrevue.co/profile/opencatalysts/add_subscriber'
+				action={`https://www.getrevue.co/profile/${process.env.NEXT_PUBLIC_REVUE_USERNAME}/add_subscriber`}
 				method='post'
 			>
 				<FormControl>
