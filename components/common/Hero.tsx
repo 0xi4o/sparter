@@ -7,14 +7,13 @@ import {
 	Button,
 	HStack,
 } from '@chakra-ui/react';
-import { AiFillGithub } from 'react-icons/ai';
 
 const Hero = () => {
 	return (
 		<Flex maxW='container.xl' px={4} py={32} justifyContent='start'>
 			<Box w={{ lg: 10 / 12, xl: 8 / 12 }}>
 				<chakra.h1
-					mb={3}
+					mb={4}
 					fontSize={{ base: '3xl', md: '4xl' }}
 					fontWeight='bold'
 					lineHeight='tall'
@@ -24,15 +23,14 @@ const Hero = () => {
 					application in one place
 				</chakra.h1>
 				<chakra.p
-					mb={5}
+					mb={4}
 					color='gray.500'
-					fontSize={{ md: 'lg' }}
+					fontSize='xl'
 					lineHeight='tall'
 				>
 					Sparter comes with all the parts you need to quickly ship
 					your product — component library, database connectors,
-					marketing pages, blog, transactional email, analytics, and
-					more.
+					authentication, transactional email, analytics, and more.
 				</chakra.p>
 				<HStack spacing={4}>
 					<NextLink href='/docs' passHref={true}>
@@ -42,29 +40,13 @@ const Hero = () => {
 							variant='solid'
 							colorScheme='brand'
 							size='lg'
-							mb={{ base: 2, sm: 0 }}
-							p={8}
+							p={6}
 							fontSize='xl'
 							cursor='pointer'
 						>
 							Get Started
 						</Button>
 					</NextLink>
-					<Button
-						as='a'
-						bg={useColorModeValue('gray.500', 'gray.600')}
-						w={{ base: 'full', sm: 'auto' }}
-						mb={{ base: 2, sm: 0 }}
-						p={8}
-						size='lg'
-						fontSize='xl'
-						leftIcon={<AiFillGithub />}
-						target='__blank'
-						cursor='pointer'
-						href='https://github.com/opencatalysts/herald'
-					>
-						GitHub
-					</Button>
 				</HStack>
 			</Box>
 		</Flex>
