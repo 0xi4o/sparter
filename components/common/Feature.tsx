@@ -125,16 +125,6 @@ const Feature = () => {
 								pre-rendered at build time and application is
 								rendered at request time.
 							</FeatureItem>
-							<FeatureItem title='Built-in blog'>
-								Beautiful, minimal blog powered by GraphCMS to
-								deliver rich content to your customers.
-							</FeatureItem>
-							<FeatureItem title='Marketing Pages'>
-								Sample landing pages, feature and call-to-action
-								sections, newsletter forms and more blocks you
-								can mix-and-match to build beautiful marketing
-								pages.
-							</FeatureItem>
 							<FeatureItem title='Postgres and MongoDB Connectors'>
 								Connects to PostgreSQL and MongoDB using Prisma
 								to quickly connect your database to your
@@ -146,8 +136,8 @@ const Feature = () => {
 							</FeatureItem>
 							<FeatureItem title='Authentication'>
 								Fully configurable authentication with
-								passwordless, username/password and popular
-								OAuth providers.
+								passwordless and popular OAuth providers.
+								Powered by NextAuth.
 							</FeatureItem>
 							<FeatureItem title='File Upload'>
 								Pre-configured Upload API that uploads files to
@@ -157,6 +147,16 @@ const Feature = () => {
 								Analytics for landing pages using Google
 								Analytics. Error Tracking in your application
 								using Sentry.
+							</FeatureItem>
+							<FeatureItem title='Built-in blog (Coming Soon)'>
+								Beautiful, minimal blog powered by GraphCMS to
+								deliver rich content to your customers.
+							</FeatureItem>
+							<FeatureItem title='Marketing Pages (Coming Soon)'>
+								Sample landing pages, feature and call-to-action
+								sections, newsletter forms and more blocks you
+								can mix-and-match to build beautiful marketing
+								pages.
 							</FeatureItem>
 							<FeatureItem title='Changelogs (Coming Soon)'>
 								Announce product updates, releases, banners to
