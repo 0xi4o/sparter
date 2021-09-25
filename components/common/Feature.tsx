@@ -130,14 +130,14 @@ const Feature = () => {
 								to quickly connect your database to your
 								application.
 							</FeatureItem>
+							<FeatureItem title='Subscription powered by Stripe'>
+								Checkout Form, API endpoints, and webhooks
+								required to start accepting payments for a
+								subscription-based product.
+							</FeatureItem>
 							<FeatureItem title='Transactional Email'>
 								Transactional Emails powered by AWS SES along
 								with beautiful, pre-made HTML email templates.
-							</FeatureItem>
-							<FeatureItem title='Authentication'>
-								Fully configurable authentication with
-								passwordless and popular OAuth providers.
-								Powered by NextAuth.
 							</FeatureItem>
 							<FeatureItem title='File Upload'>
 								Pre-configured Upload API that uploads files to
@@ -147,6 +147,11 @@ const Feature = () => {
 								Analytics for landing pages using Google
 								Analytics. Error Tracking in your application
 								using Sentry.
+							</FeatureItem>
+							<FeatureItem title='Authentication (Coming soon)'>
+								Fully configurable authentication with
+								passwordless and popular OAuth providers.
+								Powered by NextAuth.
 							</FeatureItem>
 							<FeatureItem title='Built-in blog (Coming Soon)'>
 								Beautiful, minimal blog powered by GraphCMS to
@@ -161,10 +166,6 @@ const Feature = () => {
 							<FeatureItem title='Changelogs (Coming Soon)'>
 								Announce product updates, releases, banners to
 								your users right within your application.
-							</FeatureItem>
-							<FeatureItem title='Docs (Coming Soon)'>
-								Need docs for your product? Easily create
-								interactive documentation using MDX.
 							</FeatureItem>
 						</Stack>
 					</GridItem>
